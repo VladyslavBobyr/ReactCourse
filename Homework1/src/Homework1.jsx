@@ -17,5 +17,4 @@ class Homework1 extends React.Component {
         )
     }
 }
-
 export default Homework1;

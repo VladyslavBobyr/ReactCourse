@@ -11,7 +11,11 @@ class Homework1 extends React.Component {
                 <Header  title={'My first homework in React course is  -> 🤦‍'}/>
                 <div className={'content-container'}>
                 <Menu items={items}/>
-                <Content/>
+                <Content text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid aspernatur \n' +
+                '        dolore dolorem ducimus eligendi, expedita facere hic libero minima modi numquam pariatur quia, quis sequi \n' +
+                '        sunt tenetur voluptate voluptates! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid \n' +
+                '        aspernatur dolore dolorem ducimus eligendi, expedita facere hic libero minima modi numquam pariatur quia, quis \n' +
+                '        sequi sunt tenetur voluptate voluptates!'}/>
                 </div>
             </>
         )

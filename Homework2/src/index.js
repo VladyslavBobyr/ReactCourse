@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 /*import App from './App';*/
-import Classwork1 from "./Classwork1";
+import Homework2 from "./Homework2";
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
-    <Classwork1 />
+    <Homework2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
